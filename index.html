@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Fylo Landing Page With Two Column Layout</title>
+</head>
+<body>
+  <main>
+    <nav>
+      <img src="images/logo.svg" alt="">
+      <ul>
+        <li>Features</li>
+        <li>Team</li>
+        <li>Sign In</li>
+      </ul>
+    </nav>
+    <div id="section1">
+      <div id="title-btn">
+        <h1 class="heading">All your files in one secure location, accessible anywhere.</h1>
+        <p>
+          Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.
+        </p>       
+        <form id="form1">
+          <div>
+            <input type="email" id="input1" class="required" placeholder="Enter your email..." oninput="emailValidate()">             
+            <button id="submit" class="btn cta">Get Started</button> 
+          </div>
+          <span id="span1" class="span-error">Please check your email</span>                                     
+        </form>      
+      </div>
+      <div id="sec1-img">
+        <img src="images/illustration-1.svg" alt="">
+      </div>     
+    </div>
+    <div id="sec2-bg"></div>
+    <div id="section2">
+      <div id="sec2-content">
+        <div id="left">
+          <div id="title">
+            <p class="heading sec2-title">Stay productive, wherever you are</p>
+          </div>
+          <div id="sec2-description">            
+            <p class="description">
+              Never let location be an issue when accessing your files. Fylo has you 
+              covered for all of your file storage needs.
+              <br>
+              <br>
+              Securely share files and folders with friends, family and colleagues for 
+              live collaboration. No email attachments required!
+            </p>
+            <div id="link-content">
+              <div id="link">
+                <p>See how Fylo works</p>
+                <img src="images/icon-arrow.svg" alt="">
+              </div>
+            </div>
+            <div id="quote-card-div">
+              <div id="quote-card">
+                <div id="quote-mark">
+                  <img src="images/icon-quotes.svg" alt="">
+                </div>
+                <div id="quote">
+                  <p>
+                    Fylo has improved our team productivity by an order of magnitude. Since 
+                    making the switch our team has become a well-oiled collaboration machine.
+                  </p>
+                </div>
+                <div id="ceo-profile">
+                  <div id="profile-pic" class="img-wrapper">
+                    <img src="images/avatar-testimonial.jpg" alt="">
+                  </div>
+                  <div id="info">
+                    <p>
+                      Kyle Burton<br>
+                      <span>Founder & CEO, Huddle</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>                      
+          </div>          
+        </div>
+        <div id="right">
+          <img src="images/illustration-2.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div id="section3">
+      <div id="sec3-left">
+        <p class="heading">Get early access today</p>
+        <p class="sec3-description">
+          It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.
+        </p>
+      </div>
+      <div id="sec3-right">
+        <form id="form2">
+          <div>
+            <input type="email" id="input2" class="required" name="email" placeholder="email@example.com" oninput="emailValidate2()">           
+            <span id="span2" class="span-error">Please check your email</span>
+            <button class="btn cta">Get Started For Free</button>
+          </div>                   
+        </form>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="footer-logo">
+        <img src="images/white-logo.svg" alt="">
+      </div>
+      <div id="footer-content">
+        <div id="phone-email">
+          <div id="phone" class="footer-info">
+            <img src="images/icon-phone.svg" alt="">
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div id="email" class="footer-info">
+            <img src="images/icon-email.svg" alt="">
+            <p>example@fylo.com</p>
+          </div>
+        </div>
+        <div id="about-us">
+          <div id="about-us1" class="middle">
+            <p>About Us</p>
+            <p>Jobs</p>
+            <p>Press</p>
+            <p>Blog</p>
+          </div>
+          <div id="about-us2" class="middle">
+            <p>Contact Us</p>
+            <p>Terms</p>
+            <p>Privacy</p> 
+          </div>
+        </div>
+        <div id="social-media-div">
+          <div id="social-media" >
+            <div id="facebook" role="img" aria-label="Facebook Icon">
+              <ion-icon name="logo-facebook" aria-labelledby="facebook"></ion-icon>
+            </div>  
+            <div id="twitter" role="img" aria-label="Twitter Icon">
+              <ion-icon name="logo-twitter" aria-labelledby="twitter"></ion-icon>
+            </div>       
+            <div id="instagram" role="img" aria-label="Instagram Icon">
+              <ion-icon name="logo-instagram" aria-labelledby="instagram"></ion-icon>
+            </div>   
+          </div>
+        </div>       
+      </div>
+    </div>   
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/itsale-o">Alessandra Olivera</a>.
+    </p>
+  </footer>
+</body>
+<script src="validation.js"></script>
+</html>
