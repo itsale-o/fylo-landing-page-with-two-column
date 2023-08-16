@@ -48,8 +48,8 @@ This is how the solution looks like on mobile devices
 
 ### Links
 
-- Solution URL: [Solution on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution on Frontend Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-solution-iTaRM0BGhK))
+- Live Site URL: [Live site]([https://your-live-site-url.com](https://itsale-o.github.io/fylo-landing-page-with-two-column/))
 
 ## My process
 
